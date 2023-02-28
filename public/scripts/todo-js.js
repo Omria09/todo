@@ -1,10 +1,12 @@
 $(document).ready(function() {
     var showcaseItemDivArray = [];
     var stored_value = localStorage.getItem("local");
-    Array.from(stored_value.split(",")).forEach(e => {
-        $(".showcase-items-list").append(e);
-        showcaseItemDivArray.push(e);
-    }); 
+    if (stored_value){
+        Array.from(stored_value.split(",")).forEach(e => {
+            $(".showcase-items-list").append(e);
+            showcaseItemDivArray.push(e);
+        }); 
+    }
 
 
     var callback = function() {
