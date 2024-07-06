@@ -1,13 +1,12 @@
 # Simple To-Do List
 
 A straightforward to-do list application built with html, javascript, Jquery.
-
+- **Access** https://omria09.github.io/todo/public/index.html
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Demo](#demo)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -28,7 +27,7 @@ This project is a simple to-do list application aimed at helping users organize 
 
 
 ## Usage
-
+- **Entering the page** Click https://omria09.github.io/todo/public/index.html
 - **Adding Tasks:** Click on the 'Add Task' button and enter your task in the input field.
 - **Completing Tasks:** Click on the checkbox next to each task to mark it as complete.
 
