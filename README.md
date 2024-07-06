@@ -27,13 +27,6 @@ This project is a simple to-do list application aimed at helping users organize 
 ![demo](https://github.com/Omria09/todo/assets/53431803/6ab81aef-6475-4fb9-bd27-775a1110c6ec)
 
 
-## Installation
-
-1. Clone the repository: `git clone https://github.com/Omria09/todo.git`
-2. Navigate into the project directory: `cd todo`
-3. Install dependencies: `npm install`
-4. Start the application: `npm start`
-
 ## Usage
 
 - **Adding Tasks:** Click on the 'Add Task' button and enter your task in the input field.
