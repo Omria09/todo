@@ -1,67 +1,56 @@
-![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)
+# Simple To-Do List
 
----
+A straightforward to-do list application built with html, javascript, Jquery.
 
-Example plain HTML site using GitLab Pages.
+## Table of Contents
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
----
+## Introduction
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+This project is a simple to-do list application aimed at helping users organize their tasks efficiently. It provides a minimalist interface with essential features for managing tasks.
 
-- [GitLab CI](#gitlab-ci)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
+## Features
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+- **Add Tasks:** Easily add tasks to your to-do list.
+- **Complete Tasks:** Mark tasks as completed when done.
+- **Save State:** Persist your to-do list across sessions.
 
-## GitLab CI
+## Demo
 
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
+![image](https://github.com/Omria09/todo/assets/53431803/55728e33-9c48-4cc6-8e84-6e176a269b92)
 
-```
-image: alpine:latest
 
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-```
+## Installation
 
-The above example expects to put all your HTML files in the `public/` directory.
+1. Clone the repository: `git clone https://github.com/Omria09/todo.git`
+2. Navigate into the project directory: `cd todo`
+3. Install dependencies: `npm install`
+4. Start the application: `npm start`
 
-## GitLab User or Group Pages
+## Usage
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+- **Adding Tasks:** Click on the 'Add Task' button and enter your task in the input field.
+- **Completing Tasks:** Click on the checkbox next to each task to mark it as complete.
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+## Contributing
 
-## Did you fork this project?
+Contributions are welcome! Here's how you can contribute to this project:
 
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a pull request
 
-## Troubleshooting
+Please ensure your pull request adheres to the [contributing guidelines](CONTRIBUTING.md).
 
-1. CSS is missing! That means that you have wrongly set up the CSS URL in your
-   HTML files. Have a look at the [index.html] for an example.
+## License
 
-[ci]: https://about.gitlab.com/gitlab-ci/
-[index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
