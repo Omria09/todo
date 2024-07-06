@@ -24,7 +24,7 @@ This project is a simple to-do list application aimed at helping users organize 
 
 ## Demo
 
-![image](https://github.com/Omria09/todo/assets/53431803/55728e33-9c48-4cc6-8e84-6e176a269b92)
+![demo](https://github.com/Omria09/todo/assets/53431803/6ab81aef-6475-4fb9-bd27-775a1110c6ec)
 
 
 ## Installation
