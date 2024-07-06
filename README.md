@@ -9,7 +9,6 @@ A straightforward to-do list application built with html, javascript, Jquery.
 - [Demo](#demo)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -42,7 +41,3 @@ Contributions are welcome! Here's how you can contribute to this project:
 5. Open a pull request
 
 Please ensure your pull request adheres to the [contributing guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
